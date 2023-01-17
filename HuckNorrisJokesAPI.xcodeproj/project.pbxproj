@@ -11,6 +11,7 @@
 		40435CE129771818002C6017 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40435CE029771818002C6017 /* ContentView.swift */; };
 		40435CE32977181A002C6017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40435CE22977181A002C6017 /* Assets.xcassets */; };
 		40435CE62977181A002C6017 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40435CE52977181A002C6017 /* Preview Assets.xcassets */; };
+		40435CED2977198A002C6017 /* ViewModelHNJ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40435CEC2977198A002C6017 /* ViewModelHNJ.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		40435CE029771818002C6017 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		40435CE22977181A002C6017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40435CE52977181A002C6017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40435CEC2977198A002C6017 /* ViewModelHNJ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelHNJ.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				40435CDE29771818002C6017 /* HuckNorrisJokesAPIApp.swift */,
 				40435CE029771818002C6017 /* ContentView.swift */,
+				40435CEC2977198A002C6017 /* ViewModelHNJ.swift */,
 				40435CE22977181A002C6017 /* Assets.xcassets */,
 				40435CE42977181A002C6017 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40435CED2977198A002C6017 /* ViewModelHNJ.swift in Sources */,
 				40435CE129771818002C6017 /* ContentView.swift in Sources */,
 				40435CDF29771818002C6017 /* HuckNorrisJokesAPIApp.swift in Sources */,
 			);

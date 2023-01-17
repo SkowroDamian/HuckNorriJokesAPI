@@ -8,12 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = ViewModel()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            List {
+                ForEach(viewModel.jokes, id: \.self) { joke in
+                    Text(joke.value)
+                }
+            }.listStyle(.plain)
+            Button {
+                viewModel.fetch()
+            } label: {
+                Text("Fetch joke")
+            }
+
         }
         .padding()
     }
